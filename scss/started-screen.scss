@@ -1,0 +1,42 @@
+.started-screen{
+  margin: 90px 0 ;
+  display: flex;
+  justify-content: space-between;
+  &__text-box{
+    width: 579px;
+    margin: 102px 0 102px 75px ;
+  }
+  &__desription{
+    @include text($roboto,normal,normal,16px,19px);
+    color: #A6A6A6;
+  }
+  &__title{
+    @include text($roboto,normal,normal,61px,73px);
+    color: #000000;
+    margin: 5px 0 0;
+  }
+  &__subtitle{
+    @include text($roboto,normal,normal,16px,24px);
+    color: #212529;
+    margin: 25px 0 0 0;
+  }
+  &__btn{
+    width: 153px;
+    height: 43px;
+    background: #000000;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+    @include text($roboto,normal,normal,15px,19px);
+    color: #FFFFFF;
+    margin: 16px 0 0 ;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+      background-color: white;
+      color: black;
+    }
+  }
+  &__img-box{}
+  &__img{}
+}

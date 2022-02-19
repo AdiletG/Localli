@@ -1,0 +1,68 @@
+.title-screen{
+  &__title-box{
+
+  }
+  &__description{
+    @include text( $roboto,normal,normal,16px,19px);
+    text-align: center;
+    color: #A6A6A6;
+    margin: 54px 552.5px 0;
+  }
+  &__title{
+    @include text( $roboto,normal,normal,64px,77px);
+    text-align: center;
+    color: #000000;
+    margin: 5px 343px 0;
+  }
+  &__subtitle{
+    @include text( $roboto,normal,normal,16px,24px);
+    text-align: center;
+    color: #212529;
+    margin: 23px 262px 0;
+  }
+
+  &__btn-box{
+    text-align: center;
+    margin-top: 36px;
+  }
+  &__button{
+    width: 155px;
+    height: 43px;
+    @include text( $roboto,normal,normal,15px,19px);
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-right: 10px;
+    transition: .3s;
+    &:hover{
+      color: black;
+      background-color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+
+  &__link-box{
+    display: flex;
+    justify-content: center;
+    margin: 55px 0 0;
+    column-gap: 62px;
+  }
+  &__links{
+
+  }
+  &__link{
+    @include text( $roboto,normal,normal,16px,24px);
+    color: #686868;
+    text-decoration: none;
+  }
+  &__img-box{
+    margin: 40px 0 0;
+  }
+  &__img{
+
+  }
+}
+

@@ -1,0 +1,44 @@
+.header{
+
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo-box{
+
+  }
+  &__logo{
+
+  }
+  &__links{
+
+  }
+  &__link{
+    @include text( $roboto,normal,normal,15px,22px );
+    color: #000000;
+    text-decoration: none;
+    margin-right: 30px;
+    &:hover{
+      color: #686868;
+      transform: scale(1.1);
+    }
+  }
+  &__btn{
+    width: 153px;
+    height: 43px;
+    background: #000000;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+    @include text( $roboto,normal,normal,15px,19px );
+    color: #FFFFFF;
+    margin: 25px 0;
+    transition: .3s;
+    &:hover{
+      background-color: #FFFFFF;
+      color: black;
+      cursor: pointer;
+    }
+  }
+}

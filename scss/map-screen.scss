@@ -1,0 +1,23 @@
+.map-screen{
+  &__title{
+    @include text($roboto,normal,normal,61px,73px);
+    text-align: center;
+    color: #000000;
+    margin: 120px 222px 0;
+  }
+  &__subtitle{
+    @include text($roboto,normal,normal,16px,24px);
+    text-align: center;
+    color: #212529;
+    margin: 23px 365px 0;
+  }
+  &__description{
+    @include text($roboto,normal,normal,16px,24px);
+    text-align: center;
+    color: #212529;
+    margin: 12px 456px;
+  }
+  &__img{
+    margin: 25px 106px 0 ;
+  }
+}

@@ -1,0 +1,197 @@
+.flag-screen{
+  display: flex;
+  margin: 170px 0 0;
+  &__form-box{
+    width: 50%;
+    position: relative;
+
+  }
+  &__shop-box{
+    width: 400px;
+    display: flex;
+    background: #F9F9F9;
+    border-top: 1px solid #E4E4E4;
+    border-bottom:1px solid #E4E4E4;
+    margin-left: 187px;
+  }
+  &__shop-box-img{
+    width: 20px;
+    height: 20px;
+    margin: 17px 5px 17px 15px ;
+  }
+  &__shop-box-title{
+    @include text($roboto,narmal,narmal,17px,24px);
+    color: #212529;
+    margin: 17px 0 17px ;
+  }
+  &__shop-box-subtitle{
+    @include text($roboto,narmal,narmal,18px,24px);
+    color: #000000;
+    margin: 17px 18px 17px  100px;
+  }
+  &__shop-box-svg{
+    margin: 26px 0 25px 3px;
+  }
+
+  &__link-box{
+    display: flex;
+    column-gap: 9px;
+    margin: 23px 0 0 187px;
+  }
+  &__link-box-svg{
+    margin-top: 4px;
+  }
+  &__link{
+      text-decoration: none;
+    @include text($roboto,narmal,narmal,16px,24px);
+    color: black;
+    &_black{
+      text-decoration: none;
+      @include text($roboto,narmal,narmal,16px,24px);
+      color: black;
+    }
+    &_gray{
+      text-decoration: none;
+      @include text($roboto,narmal,narmal,16px,24px);
+      color: #686868;
+    }
+  }
+  &__contact-box{
+    width: 400px;
+    border: 1px solid #E4E4E4;
+    border-radius: 20px;
+    margin: 22px 0 0 187px;
+  }
+  &__contact-box-first{
+    display: flex;
+    column-gap: 235px;
+    margin: 23px 17px 0;
+  }
+  &__contact-box-first-title{
+    @include text($roboto,narmal,narmal,20px,24px);
+    color: #686868;
+  }
+  &__contact-box-first-subtitle{
+    @include text($roboto,narmal,narmal,16px,24px);
+    color: #0E0E0E;
+    display: inline-block;
+  }
+  &__contact-box-first-email{
+    @include text($roboto,narmal,narmal,16px,24px);
+    color: black;
+    margin: 8px 0 25px 17px;
+  }
+  &__contact-line{
+    width: 368px;
+    height: 1px;
+    background: #E4E4E4;
+    margin: 0 17px;
+  }
+  &__contact-box-second{
+    display: flex;
+    column-gap: 245px;
+    margin: 23px 17px 0;
+  }
+  &__contact-box-second-title{
+    @include text($roboto,narmal,narmal,20px,24px);
+    color: #686868;
+  }
+  &__contact-box-second-subtitle{
+    @include text($roboto,narmal,narmal,16px,24px);
+    color: #0E0E0E;
+
+  }
+  &__contact-box-second-email{
+    margin: 8px 0 25px 17px;
+  }
+  &__text{
+    margin: 30px 0 20px 187px ;
+  }
+  &__form{
+    width: 400px;
+    border: 1px solid  #E4E4E4;
+    border-radius: 20px;
+    margin: 20px 0 0 187px;
+  }
+  &__first-input{
+    display: flex;
+    border-bottom: 1px solid  #E4E4E4;
+    padding: 23px 10px ;
+    column-gap: 250px;
+    cursor: pointer;
+    &:hover{
+      border: 2px solid black;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+
+    }
+  }
+  &__second-input{
+    display: flex;
+    border-bottom: 1px solid  #E4E4E4;
+    padding: 23px 10px ;
+    column-gap: 235px;
+    &:hover{
+      border: 2px solid black;
+      cursor: pointer;
+    }
+  }
+  &__third-input-check{
+    display: flex;
+    column-gap: 55px;
+
+  }
+  &__third-input{
+    padding: 18px 10px ;
+    &:hover{
+      border: 2px solid black;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      cursor: pointer;
+    }
+  }
+  &__first-input-p3{
+    margin-left: 18px;
+  }
+  &__label{
+    @include text($roboto,narmal,narmal,18px,20px);
+    cursor: pointer;
+  }
+  &__btn{
+    width: 400px;
+    height: 72px;
+    @include text($roboto,narmal,narmal,16px,20px);
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px ;
+    border: 1.5px solid #000000;
+    transition: 0.3s;
+    margin: 15px 0 0 187px;
+    &:hover{
+      background-color: #FFFFFF;
+      color: black;
+      cursor: pointer;
+    }
+  }
+  &__text-box{
+    width: 50%;
+  }
+  &__title{
+    @include text($roboto,normal,normal,61px,73px);
+    color: #000000;
+    margin: 171px 91px 0 0;
+  }
+  &__subtitle{
+    @include text($roboto,normal,normal,16px,24px);
+  color: #212529;
+    margin: 23px 143px 0 0;
+}
+  &__vector{
+    position: absolute;
+    margin: 80px 0 0 80px ;
+  }
+  &__vector-first{}
+  &__vector-second{
+    transform: translate(-40px,30px);
+  }
+}

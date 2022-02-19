@@ -1,0 +1,49 @@
+.footer{
+  margin: 51px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  &__info-box{}
+  &__logo-img{}
+  &__first-description{
+    @include text($roboto,normal,normal,15px,22px);
+    color: #A6A6A6;
+    margin: 10px 158px 0 0;
+  }
+  &__second-description{
+    @include text($roboto,normal,normal,15px,22px);
+    color: #A6A6A6;
+    margin-right: 158px;
+  }
+  &__third-description{
+    @include text($roboto,normal,normal,13px,21px);
+    color: #A6A6A6;
+    margin: 20px 236px 0 0;
+  }
+  &__link-box{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__links{
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  &__title-link{
+    text-decoration: none;
+    @include text($roboto,normal,normal,16px,19px);
+    color: #A6A6A6;
+    cursor: default;
+  }
+  &__subtitle-link{
+    text-decoration: none;
+    @include text($roboto,normal,normal,15px,22px);
+    color: #000000;
+    transition: .3s;
+
+    &:hover{
+      color: #686868;
+    }
+  }
+}

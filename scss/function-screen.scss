@@ -1,0 +1,43 @@
+.function-screen{
+  &__description{
+    @include text( $roboto,normal,normal,16px,19px );
+    text-align: center;
+    color: #A6A6A6;
+    margin: 135px 573px 0;
+  }
+  &__title{
+    @include text( $roboto,normal,normal,61px,73px);
+    text-align: center;
+    color: #000000;
+    margin: 5px 358px 0;
+  }
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    margin: 95px 0 35px ;
+  }
+  &__info-box{
+    width: 394px;
+    height: 370px;
+  }
+  &__img{
+    margin: 0 20px;
+    &_second{
+      margin: 0 88px;
+    }
+    &_third{
+      margin: 0 71px;
+    }
+  }
+  &__info-title{
+    @include text( $roboto,normal,normal,20px,24px);
+    color: #000000;
+    margin: 40px 0 0;
+  }
+  &__text{
+    @include text( $roboto,normal,normal,16px,24px);
+    color: #212529;
+    margin: 12px 24px 0 0;
+  }
+
+}

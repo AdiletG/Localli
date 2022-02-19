@@ -1,0 +1,37 @@
+.lil-screen{
+  margin: 100px 0 0;
+  display: flex;
+  &__text-box{
+    width: 50%;
+  }
+  &__title{
+    @include text( $roboto,normal,normal,61px,73px);
+    color: #000000;
+    margin: 20px 151px 0 0;
+  }
+  &__subtitle{
+    @include text( $roboto,normal,normal,16px,24px );
+    color: #212529;
+    margin: 23px 103px 0 0;
+  }
+  &__btn{
+    width: 153px;
+    height: 43px;
+    background: #000000;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+    @include text( $roboto,normal,normal,15px,19px );
+    color: #FFFFFF;
+    margin: 16px 467px 0 0;
+    transition: .3s;
+    cursor: pointer;
+    &:hover{
+      background-color: #FFFFFF;
+      color: black;
+
+    }
+  }
+  &__img-box{}
+  &__img{}
+}
